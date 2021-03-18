@@ -2,8 +2,11 @@
 
 ## Graph Node Search menggunakan algoritma BFS dan DFS ##
 Nama    : Anisa Rosalina
+
 NPM     : 1184016
+
 Kelas   : D4 Teknik Informatika 3A 
+
 MK      : Sistem Pakar (Tugas ke-2)
 
 ### Pengertian ###
@@ -12,6 +15,7 @@ Breadth First Search (BFS) adalah metode traversing yang digunakan dalam grafik.
 
 - DFS (Depth First Search)
 Depth First Search (DFS) menggunakan stack untuk menyimpan simpul yang dikunjungi. DFS adalah metode berbasis tepi dan bekerja secara rekursif di mana simpul dieksplorasi di sepanjang jalur (tepi). Eksplorasi sebuah node ditangguhkan segera setelah simpul lain yang belum dijelajahi ditemukan dan simpul-simpul yang belum dijelajahi yang terdalam ditelusuri pada titik terdepan. DFS melintasi / mengunjungi setiap simpul tepat sekali dan setiap tepi diperiksa tepat dua kali.
+
 
 ### Perbedaan Utama Antara BFS dan DFS ###
 BFS adalah algoritma berbasis vertex sedangkan DFS adalah algoritma berbasis tepi. Struktur data antrian digunakan dalam BFS. Di sisi lain, DFS menggunakan stack atau rekursi.
@@ -23,9 +27,11 @@ Aplikasi Python GUI untuk mencari node dalam grafik tertaut menggunakan pencaria
 
 ![Screenshot](https://raw.githubusercontent.com/Daytron/graph-bfs-dfs-gui/master/screenshots/screenshot1.png)
 
+
 ### Persyaratan: ###
 - Python 2.7
 - simpleguitk - [https://pypi.python.org/pypi/SimpleGUITk/1.1.3](https://pypi.python.org/pypi/SimpleGUITk/1.1.3 "Link")
+
 
 ### Pemakaian ###
     python BFS_DFS_GUI.py
@@ -33,11 +39,10 @@ Konsol digunakan untuk memantau hasil saat Anda berinteraksi di jendela bingkai.
 <br> <br>
 Masukkan node awal dan tujuan, baik dengan mengirimkan angka atau huruf (kasus apa pun dapat diterima) yang sesuai dengan node dari grafik yang dibuat. Anda kemudian dapat memulai pencarian node menggunakan pencarian pertama yang luas dengan menekan tombol * temukan BFS * atau pencarian pertama kedalaman dengan menekan tombol * temukan DFS *.
 
-### Kontribusi ###
-Jangan ragu untuk membagi proyek dan menerapkan perubahan pada repo Anda sendiri tetapi mohon tidak ada permintaan penarikan.
 
 ### Lisensi dan Hak Cipta ###
 Paket ini Hak Cipta (c) Ryan Gilera 2014 dan dilisensikan di bawah lisensi MIT. Lihat [lisensi](https://github.com/Daytron/graph-bfs-dfs-gui/blob/master/LICENSE) untuk lebih jelasnya.
+
 
 ### Kesimpulan ###
 BFS dan DFS, kedua teknik pencarian grafik memiliki waktu berjalan yang sama tetapi konsumsi ruang yang berbeda, DFS mengambil ruang linier karena kita harus mengingat jalur tunggal dengan node yang belum dijelajahi, sementara BFS menyimpan setiap node dalam memori.
